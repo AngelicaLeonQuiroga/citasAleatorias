@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  width: 90%;
+  height: 30%;
 }
 
 .contenedor{
@@ -34,6 +35,13 @@
 }
 
 .colorNombre{
+  display: flex;
   color: white;
-  padding-left: 27rem;
+  justify-content: flex-end;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
